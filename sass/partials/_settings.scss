@@ -1,0 +1,20 @@
+/* Variables */
+$color-background: #0E0E0E;
+$color-primary: #5c6bc0;
+$color-secondary: #3C4692;
+$color-warning: #ffab02;
+$color-info: #1e88e5;
+$color-success: #43a048;
+$color-violet: #8d25ab;
+
+$font-text: Arial, Helvetica, sans-serif;
+
+$base-size: 12px;
+$radius: 4px;
+
+@mixin flex($flex-direction, $align-items, $justify-content) {
+  display: flex;
+  flex-direction: $flex-direction;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}

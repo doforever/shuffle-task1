@@ -2,8 +2,12 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"../sass/style.scss"
+		"../sass/style.scss",
+		"../sass/partials/_settings.scss",
+		"../sass/partials/_global.scss",
+		"../sass/partials/_component.scss",
+		"../sass/partials/_box.scss"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "ACAA,eAAe;ACAf,AAAA,CAAC,EAAE,CAAC,AAAA,QAAQ,EAAE,CAAC,AAAA,OAAO,CAAC;EACrB,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,CAAC;EACH,gBAAgB,EDJC,OAAO;ECKxB,WAAW,EDGD,KAAK,EAAE,SAAS,EAAE,UAAU;ECFtC,KAAK,EDLS,OAAO;ECMrB,SAAS,EDGC,IAAI;CCFf;;AAED,AAAA,UAAU,CAAC;EACT,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;CAChB"
 }
