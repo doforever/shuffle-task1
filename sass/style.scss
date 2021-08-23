@@ -1,5 +1,6 @@
-@import 'partials/settings';
-@import 'partials/global';
+@import 'normalize';
+@import 'settings';
+@import 'global';
 
-@import 'partials/_component';
-@import 'partials/_box';
+@import 'components/box';
+@import 'components/section';
