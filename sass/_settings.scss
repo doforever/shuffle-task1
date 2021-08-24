@@ -2,16 +2,19 @@
 
 /* Variables */
 $color-background: #0E0E0E;
+$color-light: #FFFFFF;
 $color-primary: #5c6bc0;
 $color-secondary: #3C4692;
 $color-warning: #ffab02;
 $color-info: #1e88e5;
 $color-success: #43a048;
 $color-violet: #8d25ab;
+$color-border: #e0e0e0;
 
 $font-text: 'Roboto', sans-serif;
 
-$base-size: 12px;
+$base-size: 14px;
+$base-padding: 25px;
 $radius: 4px;
 $size-md: 768px;
 $size-lg: 992px;
@@ -31,7 +34,8 @@ $size-xl: 1200px;
       $width: math.div(100%, 12) * $i;
       flex: 0 0 $width;
       max-width: $width;
-      padding: 0 $base-size;
+      padding: 0 $base-padding;
+      @include flex(column, flex-start, center);
     }
   }
 }
