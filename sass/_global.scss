@@ -13,10 +13,13 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
+  min-height: 100vh;
+  @include flex(column, stretch, center);
 }
 
 .row {
   @include flex(row, stretch, space-between);
+  flex-wrap: wrap;
 }
 
 @include grid('sm');
