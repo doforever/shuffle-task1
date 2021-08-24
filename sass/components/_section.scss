@@ -2,8 +2,32 @@
   background-color: lighten($color-primary, 40%);
   min-height: 635px;
 
+  &__article {
+    padding: $base-padding*3;
+  }
+
+  &__title {
+    font-size: 0.85rem;
+    font-weight: initial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  &__subtitle {
+    font-size: 3rem;
+    font-weight: initial;
+    line-height: initial;
+    margin-bottom: $base-margin;
+    color: $color-secondary;
+
+    strong {
+      color: $color-strong;
+      font-weight: initial;
+    }
+  }
+
   &__text {
-    padding: $base-padding;
+    margin-bottom: $base-margin;
   }
 
   &__boxes {

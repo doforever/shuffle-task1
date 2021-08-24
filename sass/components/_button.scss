@@ -1,0 +1,19 @@
+@use 'sass:color';
+
+.button {
+  text-transform: uppercase;
+  display: block;
+  height: 36px;
+  padding: 0 16px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  background-color: $color-warning;
+  border: none;
+  border-radius: $radius;
+  color: $color-light;
+
+  &:hover {
+    background-color: color.scale($color-warning, $lightness: 10%);
+  }
+}

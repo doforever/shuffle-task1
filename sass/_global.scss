@@ -2,12 +2,19 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: $base-size;
+}
+
 body {
   background-color: $color-background;
   font-family: $font-text;
   color: $color-primary;
-  font-size: $base-size;
   line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 
 .container {
