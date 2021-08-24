@@ -1,7 +1,56 @@
+@use 'sass:math';
+@use 'sass:color';
+
 .box {
   background-color: $color-light;
   border: 1px solid $color-border;
   border-radius: $radius;
   padding: $base-padding;
-  margin: $base-padding/2 0;
+  margin: math.div($base-padding, 2) 0;
+
+  &__title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 7px 0 $base-margin 0;
+  }
+
+  &__text {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  @mixin wrapper-mod($color) {
+    background-color: color.scale($color, $lightness: 75%);
+    fill: $color;
+  }
+
+  &__icon-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: $radius;
+    margin-bottom: $base-margin;
+    position: relative;
+    background-color: color.scale($color-info, $lightness: 75%);
+    fill: $color-info;
+    
+    &--success {
+      @include wrapper-mod($color-success);
+    }
+
+    &--warning {
+      @include wrapper-mod($color-warning);
+    }
+
+    &--violet {
+      @include wrapper-mod($color-violet);
+    }
+  }
+
+  &__icon {
+    fill: inherit;
+    height: 18px;
+    width: 18px;
+    @include center();
+  }
 }

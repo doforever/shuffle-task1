@@ -355,7 +355,12 @@ body {
   line-height: 1.7;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  color: #3C4692;
+}
+
+p {
   margin: 0;
 }
 
@@ -885,6 +890,46 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 25px;
   margin: 12.5px 0;
 }
+.box__title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 7px 0 14px 0;
+}
+.box__text {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+.box__icon-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  position: relative;
+  background-color: #c7e1f9;
+  fill: #1e88e5;
+}
+.box__icon-wrapper--success {
+  background-color: #cdeacf;
+  fill: #43a048;
+}
+.box__icon-wrapper--warning {
+  background-color: #ffeac0;
+  fill: #ffab02;
+}
+.box__icon-wrapper--violet {
+  background-color: #e7c1f2;
+  fill: #8d25ab;
+}
+.box__icon {
+  fill: inherit;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .section {
   background-color: #eff1f9;
@@ -901,10 +946,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .section__subtitle {
   font-size: 3rem;
-  font-weight: initial;
   line-height: initial;
   margin-bottom: 14px;
-  color: #3C4692;
+  font-weight: initial;
 }
 .section__subtitle strong {
   color: #314efe;

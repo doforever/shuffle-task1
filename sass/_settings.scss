@@ -30,6 +30,13 @@ $size-xl: 1200px;
   justify-content: $justify-content;
 }
 
+@mixin center() {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @mixin grid($prefix) {
   @for $i from 1 through 12 {
     .col-#{$prefix}-#{$i} {
