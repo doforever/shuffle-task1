@@ -40,12 +40,12 @@
   &__boxes {
     height: 100%;
 
-    >*{
+    >[class^="col-"]{
       justify-content: flex-start;
       align-items: center;
     }
 
-    >*:nth-child(even) {
+    >[class^="col-"]:nth-child(even) {
       justify-content: flex-end;
     }
   }
@@ -57,7 +57,7 @@
     padding: 34px $base-padding + 17px 55px 0;
     margin-left: -5px;  
 
-      >*{
+      >[class^="col-"]{
         padding: 0 $base-padding*2 0 0;
       }
     }

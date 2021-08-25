@@ -963,11 +963,11 @@ p {
 .section__boxes {
   height: 100%;
 }
-.section__boxes > * {
+.section__boxes > [class^=col-] {
   justify-content: flex-start;
   align-items: center;
 }
-.section__boxes > *:nth-child(even) {
+.section__boxes > [class^=col-]:nth-child(even) {
   justify-content: flex-end;
 }
 
@@ -976,7 +976,7 @@ p {
     padding: 34px 29px 55px 0;
     margin-left: -5px;
   }
-  .section__boxes > * {
+  .section__boxes > [class^=col-] {
     padding: 0 24px 0 0;
   }
 }
