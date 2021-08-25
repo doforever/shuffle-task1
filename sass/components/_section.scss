@@ -1,5 +1,4 @@
 @use 'sass:color';
-@use 'sass:math';
 
 .section {
   background-color: color.scale($color-primary, $lightness: 88%);
@@ -14,7 +13,7 @@
   min-height: 635px;
 
   &__article {
-    padding: $base-padding*3 - 2px;
+    padding: $base-padding*6 - 2px;
   }
 
   &__title {
@@ -39,12 +38,11 @@
   }
 
   &__boxes {
-    // padding: 34px 17px 55px 0;
     height: 100%;
 
     >*{
-      padding: 0 math.div($base-padding, 2);
       justify-content: flex-start;
+      align-items: center;
     }
 
     >*:nth-child(even) {
@@ -56,11 +54,11 @@
 @media(min-width: $size-lg) {
   .section {
     &__boxes {
-    padding: 34px 17px 55px 0;
-    margin-left: -17px;  
+    padding: 34px $base-padding + 17px 55px 0;
+    margin-left: -5px;  
 
       >*{
-        padding: 0 $base-padding 0 0;
+        padding: 0 $base-padding*2 0 0;
       }
     }
   }
