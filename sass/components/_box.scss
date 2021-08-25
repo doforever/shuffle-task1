@@ -44,7 +44,7 @@
 
     &--warning {
       @include wrapper-mod($color-warning);
-      background-color: color.adjust($color-warning, $lightness: 39%, $hue: 10%);
+      background-color: color.adjust($color-warning, $lightness: 38%, $hue: 20deg);
     }
 
     &--violet {

@@ -32,7 +32,7 @@
     font-weight: initial;
 
     strong {
-      color: $color-strong;
+      color: color.adjust($color-secondary, $lightness: 16%, $saturation: 60%);
       font-weight: initial;
     }
   }

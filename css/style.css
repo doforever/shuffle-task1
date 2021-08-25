@@ -922,7 +922,7 @@ p {
 .box__icon-wrapper--warning {
   background-color: #ffe7b8;
   fill: #ffab02;
-  background-color: #fff6c9;
+  background-color: #ffffc4;
 }
 .box__icon-wrapper--violet {
   background-color: #e4b9f0;
@@ -962,7 +962,7 @@ p {
   font-weight: initial;
 }
 .section__subtitle strong {
-  color: #314efe;
+  color: #213aff;
   font-weight: initial;
 }
 .section__boxes {
