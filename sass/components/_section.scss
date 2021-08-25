@@ -3,30 +3,32 @@
 .section {
   background-color: color.scale($color-primary, $lightness: 88%);
   background: 
-    linear-gradient(180deg, color.scale($color-primary, $lightness: 75%, $alpha: -50%) 0%, color.scale($color-light, $alpha: -10%) 100%),
-    linear-gradient(225deg, color.scale($color-primary, $lightness: 88%) 49.8%, transparent 50%, transparent 100%) 85% 70% / 20em 20em,
-    linear-gradient(225deg, color.scale($color-primary, $lightness: 95%) 49.8%, transparent 50%, transparent 100%) 100% 0% / 25em 25em,
-    linear-gradient(90deg, transparent 36.8%, $color-light 37%),
-    radial-gradient(65em 60em at 30em 110%, color.scale($color-primary, $lightness: 78%) 49.8%, transparent 50%),
+    linear-gradient(180deg, color.scale($color-primary, $lightness: 80%, $alpha: -45%) 10%, color.scale($color-light, $alpha: -10%) 90%),
+    linear-gradient(225deg, color.scale($color-primary, $lightness: 87%) 49.9%, rgba($color-primary, 0) 50%) 84% 67% / 18em 18em,
+    linear-gradient(225deg, color.scale($color-primary, $lightness: 95%) 49.9%, rgba($color-primary, 0) 50%) 100% 0% / 24.5em 24.5em,
+    linear-gradient(90deg, rgba($color-primary, 0) 30.4em, $color-light 30.5em),
+    radial-gradient(70em 65em at 31em 116%, color.scale($color-primary, $lightness: 75%) 49.8%, rgba($color-primary, 0) 50%),
     $color-light;
   background-repeat: no-repeat;
   min-height: 635px;
 
   &__article {
-    padding: $base-padding*3;
+    padding: $base-padding*3 - 2px;
   }
 
   &__title {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-weight: initial;
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: inherit;
   }
 
   &__subtitle {
     font-size: 3rem;
     line-height: initial;
-    margin-bottom: $base-margin;
     font-weight: initial;
 
     strong {
@@ -35,12 +37,9 @@
     }
   }
 
-  &__text {
-    margin-bottom: $base-margin;
-  }
-
   &__boxes {
-    padding: $base-padding 0;
+    padding: 34px 17px 55px 0;
+    margin-left: -17px;
     height: 100%;
 
     >*{

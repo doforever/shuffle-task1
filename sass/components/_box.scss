@@ -12,16 +12,17 @@
     font-size: 1.3rem;
     font-weight: 500;
     line-height: 1.5;
-    margin: 7px 0 $base-margin 0;
+    margin-bottom: $base-margin - 8px;
   }
 
   &__text {
     font-size: 0.85rem;
     line-height: 1.4;
+    margin: 0;
   }
 
   @mixin wrapper-mod($color) {
-    background-color: color.scale($color, $lightness: 75%);
+    background-color: color.scale($color, $lightness: 72%);
     fill: $color;
   }
 
@@ -31,8 +32,7 @@
     border-radius: $radius;
     margin-bottom: $base-margin;
     position: relative;
-    background-color: color.scale($color-info, $lightness: 75%);
-    fill: $color-info;
+    @include wrapper-mod($color-info);
     
     &--success {
       @include wrapper-mod($color-success);
@@ -40,6 +40,7 @@
 
     &--warning {
       @include wrapper-mod($color-warning);
+      background-color: color.adjust($color-warning, $lightness: 39%, $hue: 10%);
     }
 
     &--violet {

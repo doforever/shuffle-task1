@@ -356,12 +356,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+  margin: 0 0 18px 0;
   color: #3C4692;
 }
 
 p {
-  margin: 0;
+  margin: 0 0 18px 0;
 }
 
 .container {
@@ -386,7 +386,7 @@ p {
 .col-sm-1 {
   flex: 0 0 8.3333333333%;
   max-width: 8.3333333333%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -396,7 +396,7 @@ p {
 .col-sm-2 {
   flex: 0 0 16.6666666667%;
   max-width: 16.6666666667%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -406,7 +406,7 @@ p {
 .col-sm-3 {
   flex: 0 0 25%;
   max-width: 25%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -416,7 +416,7 @@ p {
 .col-sm-4 {
   flex: 0 0 33.3333333333%;
   max-width: 33.3333333333%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -426,7 +426,7 @@ p {
 .col-sm-5 {
   flex: 0 0 41.6666666667%;
   max-width: 41.6666666667%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -436,7 +436,7 @@ p {
 .col-sm-6 {
   flex: 0 0 50%;
   max-width: 50%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -446,7 +446,7 @@ p {
 .col-sm-7 {
   flex: 0 0 58.3333333333%;
   max-width: 58.3333333333%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -456,7 +456,7 @@ p {
 .col-sm-8 {
   flex: 0 0 66.6666666667%;
   max-width: 66.6666666667%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -466,7 +466,7 @@ p {
 .col-sm-9 {
   flex: 0 0 75%;
   max-width: 75%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -476,7 +476,7 @@ p {
 .col-sm-10 {
   flex: 0 0 83.3333333333%;
   max-width: 83.3333333333%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -486,7 +486,7 @@ p {
 .col-sm-11 {
   flex: 0 0 91.6666666667%;
   max-width: 91.6666666667%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -496,7 +496,7 @@ p {
 .col-sm-12 {
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 0 25px;
+  padding: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -507,7 +507,7 @@ p {
   .col-md-1 {
     flex: 0 0 8.3333333333%;
     max-width: 8.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -517,7 +517,7 @@ p {
   .col-md-2 {
     flex: 0 0 16.6666666667%;
     max-width: 16.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -527,7 +527,7 @@ p {
   .col-md-3 {
     flex: 0 0 25%;
     max-width: 25%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -537,7 +537,7 @@ p {
   .col-md-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -547,7 +547,7 @@ p {
   .col-md-5 {
     flex: 0 0 41.6666666667%;
     max-width: 41.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -557,7 +557,7 @@ p {
   .col-md-6 {
     flex: 0 0 50%;
     max-width: 50%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -567,7 +567,7 @@ p {
   .col-md-7 {
     flex: 0 0 58.3333333333%;
     max-width: 58.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -577,7 +577,7 @@ p {
   .col-md-8 {
     flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -587,7 +587,7 @@ p {
   .col-md-9 {
     flex: 0 0 75%;
     max-width: 75%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -597,7 +597,7 @@ p {
   .col-md-10 {
     flex: 0 0 83.3333333333%;
     max-width: 83.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -607,7 +607,7 @@ p {
   .col-md-11 {
     flex: 0 0 91.6666666667%;
     max-width: 91.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -617,7 +617,7 @@ p {
   .col-md-12 {
     flex: 0 0 100%;
     max-width: 100%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -628,7 +628,7 @@ p {
   .col-lg-1 {
     flex: 0 0 8.3333333333%;
     max-width: 8.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -638,7 +638,7 @@ p {
   .col-lg-2 {
     flex: 0 0 16.6666666667%;
     max-width: 16.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -648,7 +648,7 @@ p {
   .col-lg-3 {
     flex: 0 0 25%;
     max-width: 25%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -658,7 +658,7 @@ p {
   .col-lg-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -668,7 +668,7 @@ p {
   .col-lg-5 {
     flex: 0 0 41.6666666667%;
     max-width: 41.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -678,7 +678,7 @@ p {
   .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -688,7 +688,7 @@ p {
   .col-lg-7 {
     flex: 0 0 58.3333333333%;
     max-width: 58.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -698,7 +698,7 @@ p {
   .col-lg-8 {
     flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -708,7 +708,7 @@ p {
   .col-lg-9 {
     flex: 0 0 75%;
     max-width: 75%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -718,7 +718,7 @@ p {
   .col-lg-10 {
     flex: 0 0 83.3333333333%;
     max-width: 83.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -728,7 +728,7 @@ p {
   .col-lg-11 {
     flex: 0 0 91.6666666667%;
     max-width: 91.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -738,7 +738,7 @@ p {
   .col-lg-12 {
     flex: 0 0 100%;
     max-width: 100%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -749,7 +749,7 @@ p {
   .col-xl-1 {
     flex: 0 0 8.3333333333%;
     max-width: 8.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -759,7 +759,7 @@ p {
   .col-xl-2 {
     flex: 0 0 16.6666666667%;
     max-width: 16.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -769,7 +769,7 @@ p {
   .col-xl-3 {
     flex: 0 0 25%;
     max-width: 25%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -779,7 +779,7 @@ p {
   .col-xl-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -789,7 +789,7 @@ p {
   .col-xl-5 {
     flex: 0 0 41.6666666667%;
     max-width: 41.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -799,7 +799,7 @@ p {
   .col-xl-6 {
     flex: 0 0 50%;
     max-width: 50%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -809,7 +809,7 @@ p {
   .col-xl-7 {
     flex: 0 0 58.3333333333%;
     max-width: 58.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -819,7 +819,7 @@ p {
   .col-xl-8 {
     flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -829,7 +829,7 @@ p {
   .col-xl-9 {
     flex: 0 0 75%;
     max-width: 75%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -839,7 +839,7 @@ p {
   .col-xl-10 {
     flex: 0 0 83.3333333333%;
     max-width: 83.3333333333%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -849,7 +849,7 @@ p {
   .col-xl-11 {
     flex: 0 0 91.6666666667%;
     max-width: 91.6666666667%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -859,7 +859,7 @@ p {
   .col-xl-12 {
     flex: 0 0 100%;
     max-width: 100%;
-    padding: 0 25px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -870,9 +870,9 @@ p {
   text-transform: uppercase;
   display: block;
   height: 36px;
-  padding: 0 16px;
+  padding: 0 15.5px;
   font-size: 14px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
   font-weight: 500;
   background-color: #ffab02;
   border: none;
@@ -887,38 +887,40 @@ p {
   background-color: #FFFFFF;
   border: 1px solid #e0e0e0;
   border-radius: 4px;
-  padding: 25px;
-  margin: 12.5px 0;
+  padding: 24px;
+  margin: 12px 0;
 }
 .box__title {
   font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.5;
-  margin: 7px 0 14px 0;
+  margin-bottom: 10px;
 }
 .box__text {
   font-size: 0.85rem;
   line-height: 1.4;
+  margin: 0;
 }
 .box__icon-wrapper {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  margin-bottom: 14px;
+  margin-bottom: 18px;
   position: relative;
-  background-color: #c7e1f9;
+  background-color: #c0def8;
   fill: #1e88e5;
 }
 .box__icon-wrapper--success {
-  background-color: #cdeacf;
+  background-color: #c7e8c9;
   fill: #43a048;
 }
 .box__icon-wrapper--warning {
-  background-color: #ffeac0;
+  background-color: #ffe7b8;
   fill: #ffab02;
+  background-color: #fff6c9;
 }
 .box__icon-wrapper--violet {
-  background-color: #e7c1f2;
+  background-color: #e4b9f0;
   fill: #8d25ab;
 }
 .box__icon {
@@ -933,34 +935,34 @@ p {
 
 .section {
   background-color: #ebedf7;
-  background: linear-gradient(180deg, rgba(214, 218, 239, 0.5) 0%, rgba(255, 255, 255, 0.9) 100%), linear-gradient(225deg, #ebedf7 49.8%, transparent 50%, transparent 100%) 85% 70%/20em 20em, linear-gradient(225deg, #f7f8fc 49.8%, transparent 50%, transparent 100%) 100% 0%/25em 25em, linear-gradient(90deg, transparent 36.8%, #FFFFFF 37%), radial-gradient(65em 60em at 30em 110%, #dbdef1 49.8%, transparent 50%), #FFFFFF;
+  background: linear-gradient(180deg, rgba(222, 225, 242, 0.55) 10%, rgba(255, 255, 255, 0.9) 90%), linear-gradient(225deg, #eaecf7 49.9%, rgba(92, 107, 192, 0) 50%) 84% 67%/18em 18em, linear-gradient(225deg, #f7f8fc 49.9%, rgba(92, 107, 192, 0) 50%) 100% 0%/24.5em 24.5em, linear-gradient(90deg, rgba(92, 107, 192, 0) 30.4em, #FFFFFF 30.5em), radial-gradient(70em 65em at 31em 116%, #d6daef 49.8%, rgba(92, 107, 192, 0) 50%), #FFFFFF;
   background-repeat: no-repeat;
   min-height: 635px;
 }
 .section__article {
-  padding: 75px;
+  padding: 70px;
 }
 .section__title {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: initial;
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: inherit;
 }
 .section__subtitle {
   font-size: 3rem;
   line-height: initial;
-  margin-bottom: 14px;
   font-weight: initial;
 }
 .section__subtitle strong {
   color: #314efe;
   font-weight: initial;
 }
-.section__text {
-  margin-bottom: 14px;
-}
 .section__boxes {
-  padding: 25px 0;
+  padding: 34px 17px 55px 0;
+  margin-left: -17px;
   height: 100%;
 }
 .section__boxes > * {
