@@ -19,6 +19,8 @@
     "build-docs:html": "copyfiles index.html docs",
     "build-docs:sass": "sass sass/style.scss docs/css/style.css",
     "build-docs:autoprefixer": "postcss docs/css/*.css --use autoprefixer -d docs/css/",
+    "build-docs:fonts": "copyfiles fonts/* docs",
+    "build-docs:vendor": "copyfiles vendor/* docs",
     "start": "npm-run-all build-dev -p watch:*",
     "watch:browsersync": "browser-sync start --server --files \"css/*.css\" \"*.html\"",
     "watch:sass": "sass --watch sass:css"
