@@ -27,15 +27,16 @@
 
   @mixin wrapper-mod($color) {
     background-color: color.scale($color, $lightness: 72%);
-    fill: $color;
+    color: $color;
   }
 
   &__icon-wrapper {
     width: 40px;
     height: 40px;
+    line-height: 45px;
+    text-align: center;
     border-radius: $radius;
     margin-bottom: $base-margin;
-    position: relative;
     @include wrapper-mod($color-info);
     
     &--success {
@@ -53,9 +54,7 @@
   }
 
   &__icon {
-    fill: inherit;
-    height: 18px;
-    width: 18px;
-    @include center();
+    color: inherit;
+    font-size: 18px;
   }
 }
