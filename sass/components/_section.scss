@@ -1,5 +1,15 @@
+@use 'sass:color';
+
 .section {
-  background-color: lighten($color-primary, 40%);
+  background-color: color.scale($color-primary, $lightness: 88%);
+  background: 
+    linear-gradient(180deg, color.scale($color-primary, $lightness: 75%, $alpha: -50%) 0%, color.scale($color-light, $alpha: -10%) 100%),
+    linear-gradient(225deg, color.scale($color-primary, $lightness: 88%) 49.8%, transparent 50%, transparent 100%) 85% 70% / 20em 20em,
+    linear-gradient(225deg, color.scale($color-primary, $lightness: 95%) 49.8%, transparent 50%, transparent 100%) 100% 0% / 25em 25em,
+    linear-gradient(90deg, transparent 36.8%, $color-light 37%),
+    radial-gradient(65em 60em at 30em 110%, color.scale($color-primary, $lightness: 78%) 49.8%, transparent 50%),
+    $color-light;
+  background-repeat: no-repeat;
   min-height: 635px;
 
   &__article {

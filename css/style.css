@@ -932,7 +932,9 @@ p {
 }
 
 .section {
-  background-color: #eff1f9;
+  background-color: #ebedf7;
+  background: linear-gradient(180deg, rgba(214, 218, 239, 0.5) 0%, rgba(255, 255, 255, 0.9) 100%), linear-gradient(225deg, #ebedf7 49.8%, transparent 50%, transparent 100%) 85% 70%/20em 20em, linear-gradient(225deg, #f7f8fc 49.8%, transparent 50%, transparent 100%) 100% 0%/25em 25em, linear-gradient(90deg, transparent 36.8%, #FFFFFF 37%), radial-gradient(65em 60em at 30em 110%, #dbdef1 49.8%, transparent 50%), #FFFFFF;
+  background-repeat: no-repeat;
   min-height: 635px;
 }
 .section__article {
