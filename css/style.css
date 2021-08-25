@@ -881,6 +881,7 @@ p {
 }
 .button:hover {
   background-color: #ffb31b;
+  cursor: pointer;
 }
 
 .box {
@@ -889,6 +890,10 @@ p {
   border-radius: 4px;
   padding: 24px;
   margin: 12px 0;
+}
+.box:hover {
+  border-color: #cacaca;
+  cursor: pointer;
 }
 .box__title {
   font-size: 1.3rem;

@@ -15,5 +15,6 @@
 
   &:hover {
     background-color: color.scale($color-warning, $lightness: 10%);
+    cursor: pointer;
   }
 }
